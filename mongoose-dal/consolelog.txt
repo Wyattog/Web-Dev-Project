@@ -1,0 +1,39 @@
+C:\Program Files\nodejs\node.exe --inspect-brk=20575 index.js 
+Debugger listening on ws://127.0.0.1:20575/cfc3cb5c-86cc-4178-9535-fefbf8396bec
+For help, see: https://nodejs.org/en/docs/inspector
+Debugger attached.
+--Mongoose Test--
+index.js:4
+is a promise: true
+index.js:33
+Connection Successful
+index.js:17
+test
+index.js:43
+is a promise: true
+index.js:55
+Error: 
+index.js:62
+MongoError: E11000 duplicate key error collection: dillman_personal_library.books index: title_1 dup key: { title: "Foogazy" }
+index.js:62
+Array(5) [model, model, model, model, model]
+index.js:35
+length:5
+__proto__:Array(0) [, …]
+concat:function concat() { … }
+constructor:function Array() { … }
+copyWithin:function copyWithin() { … }
+entries:function entries() { … }
+every:function every() { … }
+fill:function fill() { … }
+filter:function filter() { … }
+find:function find() { … }
+findIndex:function findIndex() { … }
+flat:function flat() { … }
+flatMap:function flatMap() { … }
+forEach:function forEach() { … }
+includes:function includes() { … }
+indexOf:function indexOf() { … }
+join:function join() { … }
+keys:function keys() { … }
+lastIndexOf:function lastIndexOf() { … }
