@@ -1,1 +1,1 @@
-export const hiveSub = 'hiveSub';
+export const HIVESUBCREATE = 'hiveSub';
