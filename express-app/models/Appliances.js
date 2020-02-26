@@ -29,5 +29,5 @@ const applianceSchema = new Schema({
         }
 });
 
-const Appliances = mongoose.model('Appliance', applianceSchema);
+const Appliances = mongoose.model('appliances', applianceSchema, 'Appliances');
 module.exports = Appliances;
