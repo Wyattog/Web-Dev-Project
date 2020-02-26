@@ -20,12 +20,6 @@ const applianceSchema = new Schema({
             required: true,
             index: true,
             unique: true
-        },
-        
-        time: {
-            type: String,
-            required: true,
-            
         }
 });
 

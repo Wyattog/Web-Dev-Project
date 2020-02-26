@@ -29,5 +29,5 @@ const kitchenSchema = new Schema({
         }
 });
 
-const Kitchen = mongoose.model('kitchen', kitchenSchema);
+const Kitchen = mongoose.model('kitchen', kitchenSchema, 'Kitchen');
 module.exports = Kitchen;
