@@ -3,6 +3,8 @@ import NavBar from './navBar';
 import {APIBASEURL} from './lib/config';
 import axios from 'axios';
 import ApplianceList from './appliance scripts/appliance';
+import Footer from './footer';
+
 axios.defaults.baseURL = APIBASEURL;
 
 
@@ -33,6 +35,8 @@ class Products extends React.Component {
             <blockquote>
             <NavBar />
             <ApplianceList appliance = {this.state.hiveData} />
+        
+            
             </blockquote>
         );
     }

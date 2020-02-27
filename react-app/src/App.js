@@ -3,7 +3,7 @@ import PubSub from 'pubsub-js';
 import './App.css';
 import {HIVESUBCREATE} from './components/lib/subscriptions';
 import Main from './main';
-
+import Footer from './components/footer';
 
 
 class App extends React.Component
@@ -24,9 +24,11 @@ hiveSubCreateHandler(msg, ){
 
 render() {
   return (
-    
+  <blockquote>
     <Main />
-  
+    
+    <Footer />
+  </blockquote>
   );
 
   }
