@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route } from 'react-router-dom';
 import './stylesheets/navBar.css';
-import logo from '../logo.svg';
+import logo from '../hivelogo.png';
 
 class NavBar extends React.Component {
     render() {
